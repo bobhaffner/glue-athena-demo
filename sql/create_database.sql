@@ -1,0 +1,1 @@
+CREATE DATABASE glue_athena_demo;
