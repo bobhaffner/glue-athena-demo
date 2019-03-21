@@ -1,6 +1,6 @@
 -- Create table CSV
 
-CREATE external TABLE IF NOT EXISTS glue_athena_demo.nyc_taxi_csv
+CREATE EXTERNAL TABLE glue_athena_demo.nyc_taxi_csv
 (
  id string,
  vendor_id int,
@@ -15,5 +15,5 @@ CREATE external TABLE IF NOT EXISTS glue_athena_demo.nyc_taxi_csv
  trip_duration int
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS TEXTFILE LOCATION 's3://ids-glue-athena-demo/csv/'
+STORED AS TEXTFILE LOCATION 's3://ids-glue-athena-demo/nyc_taxi_csv/'
 TBLPROPERTIES ('skip.header.line.count'='1');
