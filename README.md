@@ -1,4 +1,4 @@
-# Suggested Reading
+# Other Resources
 
 ### Jerry Hargrove's notes on Athena
 https://www.awsgeek.com/posts/Amazon-Athena/

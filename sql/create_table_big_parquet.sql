@@ -24,3 +24,5 @@ LOCATION 's3://ids-glue-athena-demo/nyc_taxi_big_parquet/'
 tblproperties ("parquet.compress"="GZIP");
 
 MSCK REPAIR TABLE glue_athena_demo.nyc_taxi_big_parquet;
+
+
