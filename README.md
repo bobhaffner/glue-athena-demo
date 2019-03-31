@@ -1,5 +1,8 @@
 # Other Resources
 
+### NYC Taxi Data
+https://www.kaggle.com/c/nyc-taxi-trip-duration/data
+
 ### Jerry Hargrove's notes on Athena
 https://www.awsgeek.com/posts/Amazon-Athena/
 
