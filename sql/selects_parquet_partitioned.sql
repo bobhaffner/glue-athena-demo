@@ -1,4 +1,4 @@
-SELECT max(passenger_count)
+SELECT max(passenger_count) as max_passenger_count
 FROM nyc_taxi_parquet_partitioned
 WHERE month = '01'
 
