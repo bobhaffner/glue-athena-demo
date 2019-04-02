@@ -15,3 +15,7 @@ https://docs.aws.amazon.com/athena/latest/ug/functions-operators-reference-secti
 
 ### AWS Docs - Athena Limitations
 https://docs.aws.amazon.com/athena/latest/ug/other-notable-limitations.html
+
+
+### Athena Alerter - Athena Alerter is a tool which notifies users when they run an athena query which scans more than X bytes of data.
+https://github.com/Wikia/athena_alerter
